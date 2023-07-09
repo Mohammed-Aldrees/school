@@ -1568,3 +1568,6 @@ org.postgresql.util.PSQLException: ERROR: update or delete on table "student" vi
 2023-07-09 15:19:46,478 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-6} deleteStudent method in StudentServiceImpl was accessed
 2023-07-09 15:19:46,482 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-6} updateCourse method in CourseServiceImpl was accessed
 2023-07-09 15:19:51,497 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} getAll method in CourseServiceImpl was accessed
+2023-07-09 15:29:11,280 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 15:29:11,282 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 15:29:11,287 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
