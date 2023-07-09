@@ -1,14 +1,13 @@
 package io.java.Teacher;
 
 import io.java.Course.Course;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -23,7 +22,9 @@ public class Teacher {
 	private String email;
 	private String password;
 	private Integer age;
-	@ManyToOne
+
+	@OnDelete(action = OnDeleteAction.CASCADE)
+	@ManyToOne(cascade= CascadeType.DETACH)
 	private Course course;
 
 }

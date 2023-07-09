@@ -7,7 +7,7 @@ spring:
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
         hibernate:
-            ddl-auto: create-drop
+            ddl-auto: update
 logging:
     pattern:
         file: '%d [%level] %c{1.} {%t} %m%n'

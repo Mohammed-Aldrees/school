@@ -33,15 +33,13 @@ public class StudentServiceImpl implements StudentService {
 				return converter.convert(res, StudentDto.class);
 	}
 
-	public void addStudent(StudentDto studentdto) {
+	public void addStudent(Student student) {
 		logger.info("addStudent method in StudentServiceImpl was accessed");
-		Student student = converter.convert(studentdto, Student.class);
 		studentRepository.save(student);
 	}
 
-	public void updateStudent(Long id, StudentDto studentDto) {
+	public void updateStudent(Long id, Student student) {
 		logger.info("updateStudent method in StudentServiceImpl was accessed");
-		Student student = converter.convert(studentDto, Student.class);
 		studentRepository.save(student);
 	}
 

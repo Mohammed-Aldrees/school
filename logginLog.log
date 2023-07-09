@@ -355,3 +355,835 @@ Caused by: org.hibernate.AnnotationException: Collection 'io.java.Student.Studen
 2023-07-09 09:54:50,587 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-2} addCourse method in CourseServiceImpl was accessed
 2023-07-09 09:54:54,138 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-3} getAll method in CourseServiceImpl was accessed
 2023-07-09 10:16:29,409 [WARN] com.zaxxer.hikari.pool.HikariPool {HikariPool-1 housekeeper} HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s771ms26µs).
+2023-07-09 10:53:55,694 [WARN] com.zaxxer.hikari.pool.HikariPool {HikariPool-1 housekeeper} HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m25s845ms755µs100ns).
+2023-07-09 11:01:47,292 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:02:15,760 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-8} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:02:23,117 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-9} getAll method in TeacherServiceImpl was accessed
+2023-07-09 11:02:44,264 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-10} getAll method in TeacherServiceImpl was accessed
+2023-07-09 11:02:50,709 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-1} getAll method in TeacherServiceImpl was accessed
+2023-07-09 11:02:58,582 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-2} addTeacher method in TeacherServiceImpl was accessed
+2023-07-09 11:03:02,861 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-3} getAll method in TeacherServiceImpl was accessed
+2023-07-09 11:03:25,147 [INFO] io.java.Book.BookServiceImpl {http-nio-8080-exec-4} addBook method in BookServiceImpl was accessed
+2023-07-09 11:03:29,070 [INFO] io.java.Book.BookServiceImpl {http-nio-8080-exec-6} getAll method in BookServiceImpl was accessed
+2023-07-09 11:03:37,468 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:03:52,544 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-7} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:05:49,633 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-10} addStudent method in StudentServiceImpl was accessed
+2023-07-09 11:05:53,876 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-1} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:06:08,330 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-2} addStudent method in StudentServiceImpl was accessed
+2023-07-09 11:06:12,197 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-3} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:07:51,229 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} addCourse method in CourseServiceImpl was accessed
+2023-07-09 11:07:55,182 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-7} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:08:59,215 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-10} addCourse method in CourseServiceImpl was accessed
+2023-07-09 11:09:03,703 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-1} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:09:35,096 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-2} addCourse method in CourseServiceImpl was accessed
+2023-07-09 11:09:39,885 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-3} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:10:02,303 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-4} addCourse method in CourseServiceImpl was accessed
+2023-07-09 11:10:07,407 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-6} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:10:32,774 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-5} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:16:03,343 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-9} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:18:51,395 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:18:51,396 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {SpringApplicationShutdownHook} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-09 11:18:51,513 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 11:18:51,517 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 11:19:06,822 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 528 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 11:19:06,825 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 11:19:07,738 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 11:19:07,813 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2023-07-09 11:19:08,427 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 11:19:08,436 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 11:19:08,437 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 11:19:08,542 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 11:19:08,543 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1657 ms
+2023-07-09 11:19:08,719 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 11:19:08,775 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 11:19:08,778 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 11:19:08,911 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:19:09,054 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 11:19:09,071 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 11:19:09,188 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e0a9b1d
+2023-07-09 11:19:09,190 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 11:19:09,218 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@29dcdd1c
+2023-07-09 11:19:09,460 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:19:10,118 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 11:19:10,353 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 11:19:10,353 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} constraint "uk_hr416ksxpemb9cq2bqjyuu8pe" of relation "book" does not exist, skipping
+2023-07-09 11:19:10,379 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:19:10,974 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 11:19:11,413 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 11:19:11,423 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 5.046 seconds (process running for 5.394)
+2023-07-09 11:19:33,764 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 11:19:33,764 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-1} Initializing Servlet 'dispatcherServlet'
+2023-07-09 11:19:33,765 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-1} Completed initialization in 1 ms
+2023-07-09 11:19:33,797 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-1} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:19:42,904 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-3} addStudent method in StudentServiceImpl was accessed
+2023-07-09 11:19:47,496 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-4} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:19:57,352 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-5} addStudent method in StudentServiceImpl was accessed
+2023-07-09 11:20:01,126 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-6} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:20:15,407 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-9} addCourse method in CourseServiceImpl was accessed
+2023-07-09 11:20:20,144 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-8} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:20:35,991 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-7} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:20:46,105 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-10} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 11:20:46,222 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-10} SQL Error: 0, SQLState: 23503
+2023-07-09 11:20:46,223 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-10} ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+2023-07-09 11:20:46,247 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] {http-nio-8080-exec-10} Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".] [delete from student where id=?]; SQL [delete from student where id=?]; constraint [fk4xxxkt1m6afc9vxp3ryb0xfhi]] with root cause
+org.postgresql.util.PSQLException: ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:53)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.doStaticDelete(DeleteCoordinator.java:299)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.coordinateDelete(DeleteCoordinator.java:86)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2776)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:618)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:489)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:486)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:358)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2296)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1961)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at io.java.Student.StudentServiceImpl.deleteStudent(StudentServiceImpl.java:48)
+	at io.java.Student.StudentController.deleteStudent(StudentController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-09 11:21:39,191 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-1} getStudent method in StudentServiceImpl was accessed
+2023-07-09 11:21:47,891 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-3} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:22:03,187 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-4} updateCourse method in CourseServiceImpl was accessed
+2023-07-09 11:22:07,042 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} getCourse method in CourseServiceImpl was accessed
+2023-07-09 11:22:20,027 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-6} getStudent method in StudentServiceImpl was accessed
+2023-07-09 11:22:24,630 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-9} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 11:22:29,083 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-8} getStudent method in StudentServiceImpl was accessed
+2023-07-09 11:25:52,187 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:25:52,190 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 11:25:52,194 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 11:25:54,109 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 15820 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 11:25:54,111 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 11:25:54,993 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 11:25:55,070 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2023-07-09 11:25:55,669 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 11:25:55,680 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 11:25:55,680 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 11:25:55,788 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 11:25:55,788 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1615 ms
+2023-07-09 11:25:55,929 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 11:25:55,973 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 11:25:55,975 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 11:25:56,104 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:25:56,248 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 11:25:56,263 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 11:25:56,370 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d2d8846
+2023-07-09 11:25:56,372 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 11:25:56,401 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3407aa4f
+2023-07-09 11:25:56,623 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:25:57,310 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 11:25:57,441 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:25:58,030 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 11:25:58,453 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 11:25:58,465 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 4.825 seconds (process running for 5.251)
+2023-07-09 11:26:17,311 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-2} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 11:26:17,312 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Initializing Servlet 'dispatcherServlet'
+2023-07-09 11:26:17,316 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Completed initialization in 4 ms
+2023-07-09 11:26:17,428 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-2} getStudent method in StudentServiceImpl was accessed
+2023-07-09 11:26:22,353 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver {http-nio-8080-exec-4} Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-07-09 11:26:26,379 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-3} addStudent method in StudentServiceImpl was accessed
+2023-07-09 11:26:31,769 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-6} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:26:52,945 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-7} updateCourse method in CourseServiceImpl was accessed
+2023-07-09 11:26:57,951 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-8} getCourse method in CourseServiceImpl was accessed
+2023-07-09 11:27:11,950 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-9} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 11:27:11,999 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-9} SQL Error: 0, SQLState: 23503
+2023-07-09 11:27:12,000 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-9} ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+2023-07-09 11:27:12,026 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] {http-nio-8080-exec-9} Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".] [delete from student where id=?]; SQL [delete from student where id=?]; constraint [fk4xxxkt1m6afc9vxp3ryb0xfhi]] with root cause
+org.postgresql.util.PSQLException: ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:53)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.doStaticDelete(DeleteCoordinator.java:299)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.coordinateDelete(DeleteCoordinator.java:86)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2776)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:618)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:489)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:486)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:358)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2296)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1961)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at io.java.Student.StudentServiceImpl.deleteStudent(StudentServiceImpl.java:48)
+	at io.java.Student.StudentController.deleteStudent(StudentController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-09 11:33:53,914 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:33:53,917 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 11:33:53,923 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 11:34:02,535 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 1528 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 11:34:02,537 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 11:34:03,460 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 11:34:03,537 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2023-07-09 11:34:04,150 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 11:34:04,159 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 11:34:04,160 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 11:34:04,272 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 11:34:04,273 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1673 ms
+2023-07-09 11:34:04,446 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 11:34:04,508 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 11:34:04,510 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 11:34:04,638 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:34:04,781 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 11:34:04,798 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 11:34:04,916 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e3283f6
+2023-07-09 11:34:04,918 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 11:34:04,977 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@17134190
+2023-07-09 11:34:05,316 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:34:05,938 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 11:34:06,041 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:34:06,562 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 11:34:06,946 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 11:34:06,955 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 4.979 seconds (process running for 5.331)
+2023-07-09 11:34:17,439 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-2} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 11:34:17,441 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Initializing Servlet 'dispatcherServlet'
+2023-07-09 11:34:17,445 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Completed initialization in 4 ms
+2023-07-09 11:34:17,565 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-2} getCourse method in CourseServiceImpl was accessed
+2023-07-09 11:34:28,055 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver {http-nio-8080-exec-3} Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-07-09 11:34:34,452 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-4} addCourse method in CourseServiceImpl was accessed
+2023-07-09 11:34:39,579 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:35:00,492 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-6} getStudent method in StudentServiceImpl was accessed
+2023-07-09 11:35:05,827 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-7} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 11:35:05,873 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-7} SQL Error: 0, SQLState: 23503
+2023-07-09 11:35:05,873 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-7} ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+2023-07-09 11:35:05,900 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] {http-nio-8080-exec-7} Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".] [delete from student where id=?]; SQL [delete from student where id=?]; constraint [fk4xxxkt1m6afc9vxp3ryb0xfhi]] with root cause
+org.postgresql.util.PSQLException: ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:53)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.doStaticDelete(DeleteCoordinator.java:299)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.coordinateDelete(DeleteCoordinator.java:86)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2776)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:618)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:489)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:486)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:358)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2296)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1961)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy131.deleteById(Unknown Source)
+	at io.java.Student.StudentServiceImpl.deleteStudent(StudentServiceImpl.java:48)
+	at io.java.Student.StudentController.deleteStudent(StudentController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-09 11:37:50,675 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:37:50,678 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 11:37:50,685 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 11:37:59,412 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 2268 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 11:37:59,415 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 11:38:00,382 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 11:38:00,439 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
+2023-07-09 11:38:01,062 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 11:38:01,070 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 11:38:01,071 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 11:38:01,193 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 11:38:01,193 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1708 ms
+2023-07-09 11:38:01,374 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 11:38:01,436 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 11:38:01,438 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 11:38:01,588 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:38:01,724 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 11:38:01,741 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 11:38:01,891 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b409a79
+2023-07-09 11:38:01,892 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 11:38:01,934 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@22ae905f
+2023-07-09 11:38:02,219 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:38:03,154 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 11:38:03,348 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:38:04,018 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 11:38:04,433 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 11:38:04,443 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 5.486 seconds (process running for 5.863)
+2023-07-09 11:38:04,986 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-2} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 11:38:04,986 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Initializing Servlet 'dispatcherServlet'
+2023-07-09 11:38:04,987 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Completed initialization in 1 ms
+2023-07-09 11:38:05,023 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-2} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 11:38:05,118 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-2} SQL Error: 0, SQLState: 23503
+2023-07-09 11:38:05,118 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-2} ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+2023-07-09 11:38:05,128 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] {http-nio-8080-exec-2} Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".] [delete from student where id=?]; SQL [delete from student where id=?]; constraint [fk4xxxkt1m6afc9vxp3ryb0xfhi]] with root cause
+org.postgresql.util.PSQLException: ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:53)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.doStaticDelete(DeleteCoordinator.java:299)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.coordinateDelete(DeleteCoordinator.java:86)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2776)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:618)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:489)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:486)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:358)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2296)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1961)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy131.deleteById(Unknown Source)
+	at io.java.Student.StudentServiceImpl.deleteStudent(StudentServiceImpl.java:48)
+	at io.java.Student.StudentController.deleteStudent(StudentController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-09 11:41:35,710 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:41:35,712 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 11:41:35,721 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 11:41:44,585 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 16408 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 11:41:44,588 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 11:41:45,539 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 11:41:45,608 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2023-07-09 11:41:46,222 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 11:41:46,232 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 11:41:46,232 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 11:41:46,335 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 11:41:46,335 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1678 ms
+2023-07-09 11:41:46,510 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 11:41:46,564 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 11:41:46,566 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 11:41:46,717 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:41:46,871 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 11:41:46,892 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 11:41:47,025 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cba0321
+2023-07-09 11:41:47,027 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 11:41:47,069 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@4fbaa7f5
+2023-07-09 11:41:47,331 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 11:41:48,140 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 11:41:48,286 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 11:41:48,858 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 11:41:49,246 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 11:41:49,257 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 5.141 seconds (process running for 5.576)
+2023-07-09 11:41:54,028 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-2} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 11:41:54,029 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Initializing Servlet 'dispatcherServlet'
+2023-07-09 11:41:54,030 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Completed initialization in 1 ms
+2023-07-09 11:41:54,076 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-2} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 11:42:05,831 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-4} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:42:28,847 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-5} addStudent method in StudentServiceImpl was accessed
+2023-07-09 11:42:33,969 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-3} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:42:45,448 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-6} addStudent method in StudentServiceImpl was accessed
+2023-07-09 11:42:48,872 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-7} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:43:04,478 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-8} addCourse method in CourseServiceImpl was accessed
+2023-07-09 11:43:08,448 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-9} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:43:26,557 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-10} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:43:39,396 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-1} updateStudent method in StudentServiceImpl was accessed
+2023-07-09 11:43:49,007 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-2} updateStudent method in StudentServiceImpl was accessed
+2023-07-09 11:43:54,528 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-4} getAll method in StudentServiceImpl was accessed
+2023-07-09 11:44:04,385 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} getAll method in CourseServiceImpl was accessed
+2023-07-09 11:44:21,156 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-3} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 11:44:25,473 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-6} getAll method in CourseServiceImpl was accessed
+2023-07-09 12:28:35,605 [WARN] com.zaxxer.hikari.pool.HikariPool {HikariPool-1 housekeeper} HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m48s228ms829µs500ns).
+2023-07-09 12:51:27,757 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 12:51:27,759 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 12:51:27,763 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 12:51:34,334 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 10016 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 12:51:34,336 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 12:51:35,090 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 12:51:35,148 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2023-07-09 12:51:35,663 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 12:51:35,674 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 12:51:35,674 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 12:51:35,766 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 12:51:35,766 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1379 ms
+2023-07-09 12:51:35,913 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 12:51:35,960 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 12:51:35,962 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 12:51:36,073 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 12:51:36,182 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 12:51:36,193 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 12:51:36,278 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f2fb225
+2023-07-09 12:51:36,279 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 12:51:36,302 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@4f235e8e
+2023-07-09 12:51:36,472 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 12:51:36,955 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 12:51:37,020 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 12:51:37,401 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 12:51:37,679 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 12:51:37,686 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 3.704 seconds (process running for 4.534)
+2023-07-09 12:51:43,038 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 12:51:43,038 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-1} Initializing Servlet 'dispatcherServlet'
+2023-07-09 12:51:43,040 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-1} Completed initialization in 2 ms
+2023-07-09 12:51:43,066 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-1} getAll method in CourseServiceImpl was accessed
+2023-07-09 12:52:04,269 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-3} addStudent method in StudentServiceImpl was accessed
+2023-07-09 12:52:10,492 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-4} addStudent method in StudentServiceImpl was accessed
+2023-07-09 12:52:14,726 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-5} getAll method in StudentServiceImpl was accessed
+2023-07-09 12:52:27,752 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-6} addCourse method in CourseServiceImpl was accessed
+2023-07-09 12:52:31,919 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-7} getAll method in CourseServiceImpl was accessed
+2023-07-09 12:52:43,158 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-8} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 12:52:49,244 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-9} getAll method in StudentServiceImpl was accessed
+2023-07-09 12:52:59,741 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-10} getAll method in CourseServiceImpl was accessed
+2023-07-09 12:57:22,452 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 12:57:22,453 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 12:57:22,455 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 12:57:26,155 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 3540 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 12:57:26,157 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 12:57:26,846 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 12:57:26,895 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2023-07-09 12:57:27,416 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 12:57:27,423 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 12:57:27,424 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 12:57:27,510 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 12:57:27,510 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1304 ms
+2023-07-09 12:57:27,649 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 12:57:27,689 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 12:57:27,691 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 12:57:27,801 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 12:57:27,901 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 12:57:27,913 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 12:57:27,998 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a55fb81
+2023-07-09 12:57:27,999 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 12:57:28,024 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@698d6d30
+2023-07-09 12:57:28,220 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 12:57:28,707 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 12:57:28,779 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 12:57:29,165 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 12:57:29,445 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 12:57:29,452 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 3.654 seconds (process running for 3.925)
+2023-07-09 12:57:41,826 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-2} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 12:57:41,827 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Initializing Servlet 'dispatcherServlet'
+2023-07-09 12:57:41,829 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Completed initialization in 2 ms
+2023-07-09 12:57:41,881 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-2} getAll method in StudentServiceImpl was accessed
+2023-07-09 12:57:54,720 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-3} addStudent method in StudentServiceImpl was accessed
+2023-07-09 12:58:00,488 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-4} addStudent method in StudentServiceImpl was accessed
+2023-07-09 12:58:04,456 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-5} getAll method in StudentServiceImpl was accessed
+2023-07-09 12:58:08,792 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-6} getAll method in CourseServiceImpl was accessed
+2023-07-09 12:58:13,799 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-10} addCourse method in CourseServiceImpl was accessed
+2023-07-09 12:58:17,692 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-8} getAll method in CourseServiceImpl was accessed
+2023-07-09 12:58:31,618 [INFO] io.java.Student.StudentServiceImpl {http-nio-8080-exec-9} deleteStudent method in StudentServiceImpl was accessed
+2023-07-09 12:58:31,651 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-9} SQL Error: 0, SQLState: 23503
+2023-07-09 12:58:31,652 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {http-nio-8080-exec-9} ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+2023-07-09 12:58:31,673 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] {http-nio-8080-exec-9} Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".] [delete from student where id=?]; SQL [delete from student where id=?]; constraint [fk4xxxkt1m6afc9vxp3ryb0xfhi]] with root cause
+org.postgresql.util.PSQLException: ERROR: update or delete on table "student" violates foreign key constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" on table "course_student"
+  Detail: Key (id)=(2) is still referenced from table "course_student".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:53)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.doStaticDelete(DeleteCoordinator.java:299)
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.coordinateDelete(DeleteCoordinator.java:86)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2776)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:618)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:489)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:486)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:358)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2296)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1961)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy131.deleteById(Unknown Source)
+	at io.java.Student.StudentServiceImpl.deleteStudent(StudentServiceImpl.java:48)
+	at io.java.Student.StudentController.deleteStudent(StudentController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)

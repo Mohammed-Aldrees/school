@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,7 +21,8 @@ public class Book {
 	private String title;
 	private String description;
 
-	@OneToOne
+	@OnDelete(action = OnDeleteAction.CASCADE)
+	@OneToOne(cascade=CascadeType.ALL)
 	private Course course;
 
 }

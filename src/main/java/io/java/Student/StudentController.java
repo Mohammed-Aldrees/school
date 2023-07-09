@@ -29,13 +29,13 @@ public class StudentController {
 	}
 
 	@PostMapping("/Students")
-	public void addStudent(@Valid @RequestBody StudentDto studentDto){
-		studentServiceImpl.addStudent(studentDto);
+	public void addStudent(@Valid @RequestBody Student student){
+		studentServiceImpl.addStudent(student);
 	}
 
 	@PutMapping("/Student/{Id}")
-	public void updateStudent(@RequestBody StudentDto studentDto, @PathVariable Long Id){
-		studentServiceImpl.updateStudent(Id,studentDto);
+	public void updateStudent(@RequestBody Student student, @PathVariable Long Id){
+		studentServiceImpl.updateStudent(Id,student);
 	}
 
 	@DeleteMapping("/Student/{Id}")

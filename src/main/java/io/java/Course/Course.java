@@ -6,6 +6,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import java.util.List;
 
 @AllArgsConstructor
@@ -26,7 +29,8 @@ public class Course {
 		this.description = description;
 	}
 
-	@ManyToMany
+	@OnDelete(action = OnDeleteAction.SET_NULL)
+	@ManyToMany()
 	@JoinTable(name = "course_student",
 			joinColumns = @JoinColumn(name = "course_id"),
 			inverseJoinColumns = @JoinColumn(name = "student_id")
