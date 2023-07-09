@@ -1,6 +1,9 @@
 package io.java.Student;
 
 import io.java.Converter.Converter;
+import io.java.Course.Course;
+import io.java.Course.CourseRepository;
+import io.java.Course.CourseService;
 import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,12 +16,16 @@ import java.util.List;
 public class StudentServiceImpl implements StudentService {
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	private final StudentRepository studentRepository;
+	private final CourseRepository courseRepository;
 	private final Converter converter;
+	private final CourseService courseService;
 
 	@Autowired
-	public StudentServiceImpl(StudentRepository studentRepository, Converter converter) {
+	public StudentServiceImpl(StudentRepository studentRepository, CourseRepository courseRepository, Converter converter, CourseService courseService) {
 		this.studentRepository = studentRepository;
+		this.courseRepository = courseRepository;
 		this.converter = converter;
+		this.courseService = courseService;
 	}
 
 	public List<StudentDto> getAll(){
@@ -45,6 +52,13 @@ public class StudentServiceImpl implements StudentService {
 
 	public void deleteStudent(Long id) {
 		logger.info("deleteStudent method in StudentServiceImpl was accessed");
+		List<Course> courses = courseRepository.findAll();
+		Student student = studentRepository.getReferenceById(id);
+		courses.forEach(course -> {
+			if(course.getStudents().remove(student)){
+				courseService.updateCourse(course.getId(),course);
+			}
+		});
 		studentRepository.deleteById(id);
 	}
 }
