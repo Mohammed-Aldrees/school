@@ -1,0 +1,357 @@
+2023-07-09 09:09:23,083 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 5380 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 09:09:23,092 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 09:09:24,178 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 09:09:24,257 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2023-07-09 09:09:24,985 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 09:09:25,001 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 09:09:25,001 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 09:09:25,162 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 09:09:25,163 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1991 ms
+2023-07-09 09:09:25,359 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 09:09:25,455 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 09:09:25,458 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 09:09:25,658 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:09:25,834 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 09:09:25,855 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 09:09:26,031 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@795f6681
+2023-07-09 09:09:26,032 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 09:09:26,119 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3b3056a6
+2023-07-09 09:09:26,400 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:09:27,235 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 09:09:27,287 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:09:27,287 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "book" does not exist, skipping
+2023-07-09 09:09:27,293 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:09:27,293 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} constraint "fkf75wvk4ch3gnhje998pq0lcid" of relation "teacher" does not exist, skipping
+2023-07-09 09:09:27,294 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:09:27,295 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "book" does not exist, skipping
+2023-07-09 09:09:27,295 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:09:27,295 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "course" does not exist, skipping
+2023-07-09 09:09:27,391 [INFO] org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase {main} HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-07-09 09:09:27,396 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:09:28,068 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 09:09:28,539 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 09:09:28,550 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 6.147 seconds (process running for 6.853)
+2023-07-09 09:09:38,699 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 09:09:38,700 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-1} Initializing Servlet 'dispatcherServlet'
+2023-07-09 09:09:38,705 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-1} Completed initialization in 3 ms
+2023-07-09 09:09:38,827 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-1} getCourse method in CourseServiceImpl was accessed
+2023-07-09 09:09:44,665 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-4} getAll method in CourseServiceImpl was accessed
+2023-07-09 09:09:51,050 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-5} addCourse method in CourseServiceImpl was accessed
+2023-07-09 09:09:54,660 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-6} getAll method in CourseServiceImpl was accessed
+2023-07-09 09:10:00,438 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-7} getCourse method in CourseServiceImpl was accessed
+2023-07-09 09:10:16,443 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-8} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:15:43,532 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:15:43,533 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {SpringApplicationShutdownHook} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-09 09:15:43,551 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 09:15:43,555 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 09:15:54,405 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 7496 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 09:15:54,407 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 09:15:55,339 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 09:15:55,402 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2023-07-09 09:15:56,026 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 09:15:56,037 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 09:15:56,037 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 09:15:56,142 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 09:15:56,142 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1665 ms
+2023-07-09 09:15:56,307 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 09:15:56,361 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 09:15:56,364 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 09:15:56,504 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:15:56,660 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 09:15:56,677 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 09:15:56,808 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5873f3f0
+2023-07-09 09:15:56,809 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 09:15:56,854 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7c91fe86
+2023-07-09 09:15:57,106 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:15:57,757 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 09:15:57,773 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:15:57,773 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "book" does not exist, skipping
+2023-07-09 09:15:57,773 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:15:57,773 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "teacher" does not exist, skipping
+2023-07-09 09:15:57,774 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:15:57,774 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "book" does not exist, skipping
+2023-07-09 09:15:57,774 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:15:57,774 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "course" does not exist, skipping
+2023-07-09 09:15:57,775 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:15:57,775 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "teacher" does not exist, skipping
+2023-07-09 09:15:57,912 [INFO] org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase {main} HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-07-09 09:15:57,917 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:15:58,467 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 09:15:58,846 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 09:15:58,855 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 4.946 seconds (process running for 5.365)
+2023-07-09 09:16:03,627 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-2} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 09:16:03,628 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Initializing Servlet 'dispatcherServlet'
+2023-07-09 09:16:03,633 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Completed initialization in 3 ms
+2023-07-09 09:16:03,766 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-2} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:17:17,632 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-4} addTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:17:37,150 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-8} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:17:43,062 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-6} getCourse method in CourseServiceImpl was accessed
+2023-07-09 09:17:56,548 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-10} addCourse method in CourseServiceImpl was accessed
+2023-07-09 09:18:05,575 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-1} addTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:18:09,846 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-2} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:18:27,293 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-3} addTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:18:31,582 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-5} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:18:38,078 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-4} addTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:18:41,780 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-7} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:23:43,848 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:23:43,850 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {SpringApplicationShutdownHook} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-09 09:23:43,958 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 09:23:43,963 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 09:23:55,071 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 1256 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 09:23:55,075 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 09:23:55,964 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 09:23:56,023 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2023-07-09 09:23:56,614 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 09:23:56,622 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 09:23:56,623 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 09:23:56,723 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 09:23:56,724 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1588 ms
+2023-07-09 09:23:56,884 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 09:23:56,946 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 09:23:56,949 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 09:23:57,106 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:23:57,255 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 09:23:57,272 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 09:23:57,401 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@795f6681
+2023-07-09 09:23:57,403 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 09:23:57,438 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6d4a05f7
+2023-07-09 09:23:57,660 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:23:58,310 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 09:23:58,325 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:23:58,326 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "book" does not exist, skipping
+2023-07-09 09:23:58,326 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:23:58,326 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "teacher" does not exist, skipping
+2023-07-09 09:23:58,327 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:23:58,327 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "book" does not exist, skipping
+2023-07-09 09:23:58,327 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:23:58,327 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "course" does not exist, skipping
+2023-07-09 09:23:58,328 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:23:58,328 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "teacher" does not exist, skipping
+2023-07-09 09:23:58,477 [INFO] org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase {main} HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-07-09 09:23:58,482 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:23:59,072 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 09:23:59,539 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 09:23:59,551 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 5.005 seconds (process running for 5.387)
+2023-07-09 09:24:05,721 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-3} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 09:24:05,727 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-3} Initializing Servlet 'dispatcherServlet'
+2023-07-09 09:24:05,733 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-3} Completed initialization in 5 ms
+2023-07-09 09:24:06,045 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-3} addCourse method in CourseServiceImpl was accessed
+2023-07-09 09:24:10,202 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-4} getAll method in CourseServiceImpl was accessed
+2023-07-09 09:24:15,531 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-1} addTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:24:23,823 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-10} addTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:24:27,217 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-6} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:24:51,385 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-7} updateTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:24:55,208 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-5} getTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:25:02,991 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-8} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:25:14,125 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-9} getTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:25:18,445 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-2} deleteTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:25:23,345 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-3} getTeacher method in TeacherServiceImpl was accessed
+2023-07-09 09:25:26,719 [INFO] io.java.Teacher.TeacherServiceImpl {http-nio-8080-exec-1} getAll method in TeacherServiceImpl was accessed
+2023-07-09 09:46:04,648 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:46:04,649 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {SpringApplicationShutdownHook} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-09 09:46:04,756 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 09:46:04,762 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 09:47:34,986 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 10248 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 09:47:34,988 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 09:47:35,989 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 09:47:36,048 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2023-07-09 09:47:36,680 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 09:47:36,693 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 09:47:36,693 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 09:47:36,885 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 09:47:36,885 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1821 ms
+2023-07-09 09:47:37,058 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 09:47:37,121 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 09:47:37,124 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 09:47:37,264 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:47:37,424 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 09:47:37,444 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 09:47:37,566 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@652e345
+2023-07-09 09:47:37,569 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 09:47:37,606 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1412682c
+2023-07-09 09:47:37,842 [ERROR] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Failed to initialize JPA EntityManagerFactory: Collection 'io.java.Student.Student.courses' is 'mappedBy' a property named 'students' which does not exist in the target entity 'io.java.Course.Course'
+2023-07-09 09:47:37,843 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext {main} Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'io.java.Student.Student.courses' is 'mappedBy' a property named 'students' which does not exist in the target entity 'io.java.Course.Course'
+2023-07-09 09:47:37,843 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Shutdown initiated...
+2023-07-09 09:47:37,884 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Shutdown completed.
+2023-07-09 09:47:37,887 [INFO] org.apache.catalina.core.StandardService {main} Stopping service [Tomcat]
+2023-07-09 09:47:37,902 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger {main} 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-09 09:47:37,926 [ERROR] org.springframework.boot.SpringApplication {main} Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'io.java.Student.Student.courses' is 'mappedBy' a property named 'students' which does not exist in the target entity 'io.java.Course.Course'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at io.java.SchoolApplication.main(SchoolApplication.java:20)
+Caused by: org.hibernate.AnnotationException: Collection 'io.java.Student.Student.courses' is 'mappedBy' a property named 'students' which does not exist in the target entity 'io.java.Course.Course'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1568)
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1582)
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1543)
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1534)
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1846)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1803)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:328)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 16 common frames omitted
+2023-07-09 09:48:04,243 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 14040 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 09:48:04,246 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 09:48:05,139 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 09:48:05,209 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2023-07-09 09:48:05,830 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 09:48:05,843 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 09:48:05,843 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 09:48:06,109 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 09:48:06,110 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1792 ms
+2023-07-09 09:48:06,262 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 09:48:06,318 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 09:48:06,321 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 09:48:06,490 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:48:06,628 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 09:48:06,645 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 09:48:06,773 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5940b14e
+2023-07-09 09:48:06,775 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 09:48:06,806 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@748904e8
+2023-07-09 09:48:07,021 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:48:07,736 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 09:48:07,752 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:48:07,752 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "book" does not exist, skipping
+2023-07-09 09:48:07,753 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:48:07,753 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "teacher" does not exist, skipping
+2023-07-09 09:48:07,753 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:48:07,753 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "book" does not exist, skipping
+2023-07-09 09:48:07,754 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:48:07,754 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "course" does not exist, skipping
+2023-07-09 09:48:07,788 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:48:07,789 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} drop cascades to constraint fk4xxxkt1m6afc9vxp3ryb0xfhi on table course_student
+2023-07-09 09:48:07,790 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:48:07,790 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "teacher" does not exist, skipping
+2023-07-09 09:48:07,864 [INFO] org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase {main} HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-07-09 09:48:07,868 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:48:08,440 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 09:48:08,837 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 09:48:08,849 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 5.074 seconds (process running for 5.433)
+2023-07-09 09:52:55,840 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:52:55,841 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {SpringApplicationShutdownHook} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-09 09:52:55,959 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 09:52:55,965 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 09:53:06,628 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 3712 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 09:53:06,631 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 09:53:07,510 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 09:53:07,588 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2023-07-09 09:53:08,199 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 09:53:08,210 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 09:53:08,211 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 09:53:08,340 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 09:53:08,341 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1635 ms
+2023-07-09 09:53:08,516 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 09:53:08,563 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 09:53:08,570 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 09:53:08,732 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:53:08,883 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 09:53:08,903 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 09:53:09,039 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@795f6681
+2023-07-09 09:53:09,041 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 09:53:09,073 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6d4a05f7
+2023-07-09 09:53:09,357 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:53:10,320 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 09:53:10,342 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,342 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "book" does not exist, skipping
+2023-07-09 09:53:10,345 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,345 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} constraint "fk4xxxkt1m6afc9vxp3ryb0xfhi" of relation "course_student" does not exist, skipping
+2023-07-09 09:53:10,346 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,346 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} constraint "fklmj50qx9k98b7li5li74nnylb" of relation "course_student" does not exist, skipping
+2023-07-09 09:53:10,347 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,347 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "teacher" does not exist, skipping
+2023-07-09 09:53:10,349 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,349 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "book" does not exist, skipping
+2023-07-09 09:53:10,350 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,350 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "course" does not exist, skipping
+2023-07-09 09:53:10,354 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,355 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "student" does not exist, skipping
+2023-07-09 09:53:10,355 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:53:10,356 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "teacher" does not exist, skipping
+2023-07-09 09:53:10,437 [INFO] org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase {main} HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-07-09 09:53:10,442 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:53:11,088 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 09:53:11,529 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 09:53:11,538 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 5.389 seconds (process running for 5.747)
+2023-07-09 09:53:20,693 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-3} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 09:53:20,695 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-3} Initializing Servlet 'dispatcherServlet'
+2023-07-09 09:53:20,697 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-3} Completed initialization in 2 ms
+2023-07-09 09:53:21,057 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-3} addCourse method in CourseServiceImpl was accessed
+2023-07-09 09:53:24,882 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-4} getAll method in CourseServiceImpl was accessed
+2023-07-09 09:54:18,128 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:54:18,129 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {SpringApplicationShutdownHook} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-09 09:54:18,259 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2023-07-09 09:54:18,268 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
+2023-07-09 09:54:25,858 [INFO] io.java.SchoolApplication {main} Starting SchoolApplication using Java 17.0.7 with PID 3844 (C:\Users\maldrees\Desktop\school - Copy\target\classes started by maldrees in C:\Users\maldrees\Desktop\school - Copy)
+2023-07-09 09:54:25,860 [INFO] io.java.SchoolApplication {main} No active profile set, falling back to 1 default profile: "default"
+2023-07-09 09:54:26,747 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-09 09:54:26,824 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2023-07-09 09:54:27,419 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2023-07-09 09:54:27,428 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2023-07-09 09:54:27,429 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-09 09:54:27,529 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2023-07-09 09:54:27,529 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1605 ms
+2023-07-09 09:54:27,674 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-09 09:54:27,736 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-09 09:54:27,740 [INFO] org.hibernate.cfg.Environment {main} HHH000406: Using bytecode reflection optimizer
+2023-07-09 09:54:27,906 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:54:28,067 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo {main} No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-09 09:54:28,087 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2023-07-09 09:54:28,207 [INFO] com.zaxxer.hikari.pool.HikariPool {main} HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@394fb736
+2023-07-09 09:54:28,209 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2023-07-09 09:54:28,246 [INFO] org.hibernate.orm.dialect {main} HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@647fb583
+2023-07-09 09:54:28,471 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator {main} HHH000021: Bytecode provider name : bytebuddy
+2023-07-09 09:54:29,239 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-09 09:54:29,264 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,265 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "book" does not exist, skipping
+2023-07-09 09:54:29,266 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,266 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "course_student" does not exist, skipping
+2023-07-09 09:54:29,267 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,267 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "course_student" does not exist, skipping
+2023-07-09 09:54:29,267 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,267 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} relation "teacher" does not exist, skipping
+2023-07-09 09:54:29,268 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,269 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "book" does not exist, skipping
+2023-07-09 09:54:29,269 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,269 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "course" does not exist, skipping
+2023-07-09 09:54:29,270 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,270 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "course_student" does not exist, skipping
+2023-07-09 09:54:29,271 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,271 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "student" does not exist, skipping
+2023-07-09 09:54:29,271 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} SQL Warning Code: 0, SQLState: 00000
+2023-07-09 09:54:29,271 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper {main} table "teacher" does not exist, skipping
+2023-07-09 09:54:29,412 [INFO] org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase {main} HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-07-09 09:54:29,416 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-09 09:54:30,026 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-09 09:54:30,462 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-09 09:54:30,474 [INFO] io.java.SchoolApplication {main} Started SchoolApplication in 5.095 seconds (process running for 5.49)
+2023-07-09 09:54:50,249 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-8080-exec-2} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-09 09:54:50,251 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Initializing Servlet 'dispatcherServlet'
+2023-07-09 09:54:50,253 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-8080-exec-2} Completed initialization in 2 ms
+2023-07-09 09:54:50,587 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-2} addCourse method in CourseServiceImpl was accessed
+2023-07-09 09:54:54,138 [INFO] io.java.Course.CourseServiceImpl {http-nio-8080-exec-3} getAll method in CourseServiceImpl was accessed
+2023-07-09 10:16:29,409 [WARN] com.zaxxer.hikari.pool.HikariPool {HikariPool-1 housekeeper} HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s771ms26µs).

@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tododeloyment
+  labels:
+    app: java
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: java
+  template:
+    metadata:
+      labels:
+        app: java
+    spec:
+      containers:
+        - name: javatodoapp
+          image: todoapp
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: javasevice
+spec:
+  type: LoadBalancer
+  selector:
+    app: java
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+     # nodePort: 30300
