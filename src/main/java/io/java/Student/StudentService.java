@@ -1,7 +1,6 @@
 package io.java.Student;
 
 import jakarta.persistence.EntityNotFoundException;
-
 import java.util.List;
 
 public interface StudentService {

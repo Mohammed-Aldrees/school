@@ -1,7 +1,6 @@
 package io.java.Book;
 
 import io.java.Course.Course;
-
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import org.modelmapper.ModelMapper;
@@ -13,38 +12,38 @@ import java.util.List;
 @RestController
 public class BookController {
 
-	private BookService bookServiceImpl;
+	private final BookService bookServiceImpl;
 	@Autowired
 	private ModelMapper modelMapper;
 	@Autowired
 	public BookController(BookService bookServiceImpl) {
 		this.bookServiceImpl = bookServiceImpl;
 	}
-	@GetMapping("/Course/{id}/Books")
-	public List<BookDto>getAll(@PathVariable Long id){
-		return bookServiceImpl.getAll(id);
+	@GetMapping("/Course/{courseId}/Books")
+	public List<BookDto>getAll(@PathVariable Long courseId){
+		return bookServiceImpl.getAll(courseId);
 	}
 
-	@GetMapping("/Course/{CourseId}/Book/{Id}")
-	public BookDto getBook(@PathVariable Long Id) throws EntityNotFoundException {
-		return bookServiceImpl.getById(Id);
+	@GetMapping("/Course/{courseId}/Book/{bookId}")
+	public BookDto getBook(@PathVariable Long bookId) throws EntityNotFoundException {
+		return bookServiceImpl.getById(bookId);
 	}
 
-	@PostMapping("/Course/{id}/Books")
-	public void addBook(@Valid @RequestBody Book book,@PathVariable Long id){
-		book.setCourse(new Course(id,"",""));
+	@PostMapping("/Course/{courseId}/Books")
+	public void addBook(@Valid @RequestBody Book book,@PathVariable Long courseId){
+		book.setCourse(new Course(courseId,"",""));
 		bookServiceImpl.addBook(book);
 	}
 
-	@PutMapping("/Course/{CourseId}/Book/{BookId}")
-	public void updateBook(@RequestBody Book book, @PathVariable Long CourseId,@PathVariable Long BookId ){
-		book.setCourse(new Course(CourseId,"",""));
-		bookServiceImpl.updateBook(BookId,book);
+	@PutMapping("/Course/{courseId}/Book/{bookId}")
+	public void updateBook(@RequestBody Book book, @PathVariable Long courseId,@PathVariable Long bookId ){
+		book.setCourse(new Course(courseId,"",""));
+		bookServiceImpl.updateBook(bookId,book);
 	}
 
-	@DeleteMapping("/Course/{CourseId}/Book/{Id}")
-	public void deleteBook(@PathVariable Long Id){
-		bookServiceImpl.deleteBook(Id);
+	@DeleteMapping("/Course/{courseId}/Book/{bookId}")
+	public void deleteBook(@PathVariable Long bookId){
+		bookServiceImpl.deleteBook(bookId);
 	}
 
 }

@@ -12,26 +12,26 @@ import java.util.List;
 @RestController
 public class TeacherController {
 
-	private TeacherService teacherServiceImpl;
+	private final TeacherService teacherServiceImpl;
 	@Autowired
 	private ModelMapper modelMapper;
 	@Autowired
 	public TeacherController(TeacherService teacherServiceImpl) {
 		this.teacherServiceImpl = teacherServiceImpl;
 	}
-	@GetMapping("/Course/{id}/Teachers")
-	public List<TeacherDto>getAll(@PathVariable Long id){
-		return teacherServiceImpl.getAll(id);
+	@GetMapping("/Course/{courseId}/Teachers")
+	public List<TeacherDto>getAll(@PathVariable Long courseId){
+		return teacherServiceImpl.getAll(courseId);
 	}
 
-	@GetMapping("/Course/{courseId}/Teacher/{Id}")
-	public TeacherDto getTeacher(@PathVariable Long Id) throws EntityNotFoundException {
-		return teacherServiceImpl.getById(Id);
+	@GetMapping("/Course/{courseId}/Teacher/{teacherId}")
+	public TeacherDto getTeacher(@PathVariable Long teacherId) throws EntityNotFoundException {
+		return teacherServiceImpl.getById(teacherId);
 	}
 
-	@PostMapping("/Course/{id}/Teachers")
-	public void addTeacher(@Valid @RequestBody Teacher teacher,@PathVariable Long id){
-		teacher.setCourse(new Course(id,"",""));
+	@PostMapping("/Course/{courseId}/Teachers")
+	public void addTeacher(@Valid @RequestBody Teacher teacher,@PathVariable Long courseId){
+		teacher.setCourse(new Course(courseId,"",""));
 		teacherServiceImpl.addTeacher(teacher);
 	}
 
@@ -41,9 +41,9 @@ public class TeacherController {
 		teacherServiceImpl.updateTeacher(teacherId,teacher);
 	}
 
-	@DeleteMapping("/Course/{courseId}/Teacher/{Id}")
-	public void deleteTeacher(@PathVariable Long Id){
-		teacherServiceImpl.deleteTeacher(Id);
+	@DeleteMapping("/Course/{courseId}/Teacher/{teacherId}")
+	public void deleteTeacher(@PathVariable Long teacherId){
+		teacherServiceImpl.deleteTeacher(teacherId);
 	}
 
 }

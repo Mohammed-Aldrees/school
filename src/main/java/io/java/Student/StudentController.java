@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class StudentController {
 
-	private StudentService studentServiceImpl;
+	private final StudentService studentServiceImpl;
 	@Autowired
 	private ModelMapper modelMapper;
 	@Autowired
@@ -23,9 +23,9 @@ public class StudentController {
 		return studentServiceImpl.getAll();
 	}
 
-	@GetMapping("/Student/{Id}")
-	public StudentDto getStudent(@PathVariable Long Id) throws EntityNotFoundException {
-		return studentServiceImpl.getById(Id);
+	@GetMapping("/Student/{studentId}")
+	public StudentDto getStudent(@PathVariable Long studentId) throws EntityNotFoundException {
+		return studentServiceImpl.getById(studentId);
 	}
 
 	@PostMapping("/Students")
@@ -33,14 +33,14 @@ public class StudentController {
 		studentServiceImpl.addStudent(student);
 	}
 
-	@PutMapping("/Student/{Id}")
-	public void updateStudent(@RequestBody Student student, @PathVariable Long Id){
-		studentServiceImpl.updateStudent(Id,student);
+	@PutMapping("/Student/{studentId}")
+	public void updateStudent(@RequestBody Student student, @PathVariable Long studentId){
+		studentServiceImpl.updateStudent(studentId,student);
 	}
 
-	@DeleteMapping("/Student/{Id}")
-	public void deleteStudent(@PathVariable Long Id){
-		studentServiceImpl.deleteStudent(Id);
+	@DeleteMapping("/Student/{studentId}")
+	public void deleteStudent(@PathVariable Long studentId){
+		studentServiceImpl.deleteStudent(studentId);
 	}
 
 }
