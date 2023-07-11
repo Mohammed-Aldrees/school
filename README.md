@@ -11,7 +11,7 @@ School Management System is a Spring Boot application designed to manage the dai
 
 ## Prerequisites
 
-- Java 1.8 or later
+- Java 17 or later
 - Maven 3.2+
 - PostgreSQL 9.6+
 
@@ -20,13 +20,13 @@ School Management System is a Spring Boot application designed to manage the dai
 First, clone the repository to your local machine:
 
 ```
-git clone https://github.com/yourusername/SchoolManagementSystem.git
+git clone https://github.com/Mohammed-Aldrees/school
 ```
 
 Navigate to the project directory:
 
 ```
-cd SchoolManagementSystem
+cd school 
 ```
 
 Then, build the project using Maven:
@@ -40,7 +40,7 @@ mvn clean install
 This project uses a PostgreSQL database. Before you run the application, make sure to update `src/main/resources/application.properties` file with your own PostgreSQL configurations:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/school_db
+spring.datasource.url=jdbc:postgresql://localhost:5432/school
 spring.datasource.username=postgres
 spring.datasource.password=yourpassword
 ```
