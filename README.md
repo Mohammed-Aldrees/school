@@ -1,4 +1,3 @@
-```markdown
 # School Management System
 
 School Management System is a Spring Boot application designed to manage the daily administrative tasks of a school. The application allows the management of teachers, students, books, and courses.
